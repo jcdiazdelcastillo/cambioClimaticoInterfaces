@@ -19,7 +19,7 @@ nav{
     font-weight: bold;
 }
 a{
-    margin-left: 10px;
+    margin-left: 30px;
     color:purple;
 }
 a:hover{
@@ -133,7 +133,7 @@ li{
 /*MECANISMOS DE IMPACTO (3 cajas lado a lado)*/
 .mecanismoIndividual{
     float:left;
-    width: 436.800px; /*1442.800 ENTRE 3 CAJAS 480 - 20 MARGIN LEFT -20 padding - 4 border = 436  SE BAJA LA ULTIMA PREGUNTAR A ISA*/ 
+    width: 436.800px; /*1442.800 ENTRE 3 CAJAS 480 - 20 MARGIN LEFT -20 padding - 4 border*/ 
     margin-top: 20px;
     margin-left:20px;
     margin-bottom:20px;
@@ -148,16 +148,24 @@ li{
 }
 /*SOLUCIONES GENERAL, UNA CAJA DEBAJO DE OTRA*/
 .solucionIndividual{
-    width: 470px;
-    margin: 0 auto 20px auto;
+    width:436.800px;
+    height:400px;
+    float:left;
+    margin-left:20px;
+    margin-bottom:20px;
+    margin-top:20px;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
     background-color: #e0f7fa;
 }
+.solucionIndividual:hover{
+    transform: scale(1.05); /*Escalo la caja de 1:1 a 1:1.05*/
+    transition: transform 0.5s; /*Lo hace de manera fluida*/
+}
 .solucionIndividual img {
-    width: 450px; /* un poco menos que el ancho de la caja (470 PX) para dejar margen */
-    height: auto; /* que no se achine la imagen. Mantener la proporción de la imagen */
-    margin: 0 auto 10px auto; /* centra la imagen y dejar espacio abajo */
-
+    width: 410px; /* un poco menos que el ancho de la caja (470 PX) para dejar margen */
+    margin-left:11px;
+    margin-right:11px;
+    height: auto; /* /* que no se achine la imagen. Mantener la proporción de la imagen */
 }
