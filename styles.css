@@ -130,7 +130,7 @@ li{
     margin-bottom:8px;
 }
 
-/*MECANISMOS DE IMPACTO (3 cajas lado a lado)*/
+/*MECANISMOS DE IMPACTO (6 cajas 3 arriba y 3 abajo)*/
 .mecanismoIndividual{
     float:left;
     width: 436.800px; /*1442.800 ENTRE 3 CAJAS 480 - 20 MARGIN LEFT -20 padding - 4 border*/ 
