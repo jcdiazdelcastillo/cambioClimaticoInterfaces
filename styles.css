@@ -157,6 +157,7 @@ li{
 }
 .solucionIndividual img {
     width: 450px; /* un poco menos que el ancho de la caja (470 PX) para dejar margen */
-    height: auto; /* que no se achine */
-    margin: 0 auto 10px auto; /* centra la imagen y dejaR espacio abajo */
+    height: auto; /* que no se achine la imagen. Mantener la proporción de la imagen */
+    margin: 0 auto 10px auto; /* centra la imagen y dejar espacio abajo */
+
 }
