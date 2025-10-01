@@ -145,6 +145,7 @@ li{
 
 #eliminarFloat{
     clear:both;
+    margin-top:90px;
 }
 /*SOLUCIONES GENERAL, (6 cajas 3 arriba y 3 abajo)*/
 .solucionIndividual{
@@ -167,5 +168,5 @@ li{
     width: 410px; /* un poco menos que el ancho de la caja (436 PX) para dejar margen */
     margin-left:11px;
     margin-right:11px;
-    height: auto; /* que no se achine la imagen. Mantener la proporción de la imagen */
+    height: auto; /*que no se achine la imagen. Mantener la proporción de la imagen */
 }
