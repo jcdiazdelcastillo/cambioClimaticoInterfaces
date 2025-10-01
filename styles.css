@@ -164,8 +164,8 @@ li{
     transition: transform 0.5s; /*Lo hace de manera fluida*/
 }
 .solucionIndividual img {
-    width: 410px; /* un poco menos que el ancho de la caja (470 PX) para dejar margen */
+    width: 410px; /* un poco menos que el ancho de la caja (436 PX) para dejar margen */
     margin-left:11px;
     margin-right:11px;
-    height: auto; /* /* que no se achine la imagen. Mantener la proporción de la imagen */
+    height: auto; /* que no se achine la imagen. Mantener la proporción de la imagen */
 }
